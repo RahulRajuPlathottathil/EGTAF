@@ -54,7 +54,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
      npm run test
    ```
-   ![alt Test Report Image](DocumentationHelper\RunScript.PNG "Run Script")
+   ![alt Test Report Image](EGTAF\DocumentationHelper\RunScript.PNG "Run Script")
 2. Open cypress app - Test Runner 
     - This will open the Cypress Test Runner, where you can select and run individual tests or the entire test suite.
    ```sh
