@@ -1,0 +1,32 @@
+{
+    "name": "egtaf",
+    "version": "1.0.0",
+    "description": "Practical Assessment Repo",
+    "main": "index.js",
+    "scripts": {
+        "test-result-cleanup": "node cleanup.js",
+        "mochawesome-merge": "npx mochawesome-merge cypress/results/mochawesome/*.json > mochawesome.json && npx marge mochawesome.json",
+        "test-headless": "npx cypress run",
+        "test": "npm run test-result-cleanup && npm run test-headless &&npm run mochawesome-merge"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RahulRajuPlathottathil/EGTAF.git"
+    },
+    "author": "Rahul Raju",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RahulRajuPlathottathil/EGTAF/issues"
+    },
+    "homepage": "https://github.com/RahulRajuPlathottathil/EGTAF#readme",
+    "devDependencies": {
+        "cypress": "^13.8.1",
+        "cypress-multi-reporters": "^1.6.4",
+        "mocha": "^10.4.0",
+        "mocha-junit-reporter": "^2.2.1",
+        "mochawesome": "^7.1.3",
+        "mochawesome-merge": "^4.3.0",
+        "mochawesome-report-generator": "^6.2.0",
+        "prettier": "^3.2.5"
+    }
+}

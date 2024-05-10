@@ -1,0 +1,33 @@
+{
+    "dropdown": {
+        "options": ["option1", "option2", "option3"],
+        "defaultSelection": "option1",
+        "valueToSelect": "option3"
+    },
+    "imageUpload": "cypress/fixtures/Sample.png",
+    "alert": {
+        "type": "window:alert",
+        "name": "Rahul Raju",
+        "expectedText": "Hello Rahul Raju, share this practice page and share your knowledge"
+    },
+    "confirm": {
+        "type": "window:confirm",
+        "name": "Rahul Raju",
+        "expectedText": "Hello Rahul Raju, Are you sure you want to confirm?"
+    },
+    "mouseHover": {
+        "ul": ["Top", "Reload"]
+    },
+    "openTab": {
+        "url": "https://easygenerator.com"
+    },
+    "frame_nav": {
+        "nav": [
+            "Why Easygenerator",
+            "Solutions",
+            "Features",
+            "Pricing",
+            "Resources"
+        ]
+    }
+}
