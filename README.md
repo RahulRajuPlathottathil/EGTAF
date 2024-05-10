@@ -67,13 +67,13 @@ The test suite is organized as follows:
 * cypress/support: This directory contains support files like commands, fixtures, and plugins used in the tests.
 * cypress/fixtures: This directory contains test data in JSON format
  
-![alt text](DocumentationHelper\TestStructure.PNG "Test Structure View")
+![alt text](DocumentationHelper/TestStructure.PNG "Test Structure View")
 
 ### Test Data
 Test Data
 Test data is managed using fixture files located in the cypress/fixtures directory. These fixture files contain JSON data used in the tests. You can create fixture files for different scenarios or test data sets.
 
-![alt Test Data Image](DocumentationHelper\TestData.PNG "Test Data View")
+![alt Test Data Image](DocumentationHelper/TestData.PNG "Test Data View")
 
 ### Generating Reports
 Test reports can be generated using Cypress plugins or tools like Mochawesome. Here's how you can change Mochawesome reports configuration in reporter-config.json:
@@ -96,9 +96,9 @@ Test reports can be generated using Cypress plugins or tools like Mochawesome. H
       }   
 }
 ```
-![alt Test Report Image](DocumentationHelper\ReportStructure.PNG "Report View and Configuration")
+![alt Test Report Image](DocumentationHelper/ReportStructure.PNG "Report View and Configuration")
 
-![alt Test Report Image](DocumentationHelper\mocha_multiple_TestReport.PNG "html report")
+![alt Test Report Image](DocumentationHelper/mocha_multiple_TestReport.PNG "html report")
 
 ### Contact
 
